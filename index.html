@@ -456,23 +456,35 @@
                 required
                 placeholder="Name"
               />
+              <svg class="modal-form-icon"></svg>
             </div>
           </div>
-
-          <input
-            type="text"
-            name=""
-            class="modal-input"
-            required
-            placeholder="Phone"
-          />
-          <input
-            type="text"
-            name=""
-            class="modal-input"
-            required
-            placeholder="Email"
-          />
+          <div class="modal-form-container">
+            <label class="modal-label" for="user-name">Phone</label>
+            <div class="container-icon">
+              <input
+                type="text"
+                name=""
+                class="modal-input"
+                required
+                placeholder="Phone"
+              />
+              <svg class="modal-form-icon" width="18" height="24"></svg>
+            </div>
+          </div>
+          <div class="modal-form-container">
+            <label class="modal-label" for="user-name">Email</label>
+            <div class="container-icon">
+              <input
+                type="text"
+                name=""
+                class="modal-input"
+                required
+                placeholder="Email"
+              />
+              <svg class="modal-form-icon"><use href=""></use></svg>
+            </div>
+          </div>
         </form>
 
         <button class="modal-button-send">Send</button>
