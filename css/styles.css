@@ -807,20 +807,6 @@ ul {
   fill: var(--logo-color);
 }
 
-.modal-input::placeholder {
-  position: absolute;
-  left: 0%;
-  right: 90.56%;
-  top: 0%;
-  bottom: 75.86%;
-  font-family: "Roboto";
-  font-style: normal;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.04em;
-  color: var(--customers-link-color);
-}
-
 .modal-form-icon {
   position: absolute;
   left: 16px;
