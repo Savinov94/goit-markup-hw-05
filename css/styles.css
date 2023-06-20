@@ -920,6 +920,12 @@ ul {
   color: var(--customers-link-color);
 }
 
+.input:checked .modal-chekbox-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
 .modal-chekbox-span {
   width: 16px;
   height: 16px;
