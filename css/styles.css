@@ -937,6 +937,10 @@ ul {
 .modal-chekbox-svg {
 }
 
+.modal-link {
+  color: #4d5ae5;
+}
+
 .modal-button-send {
   padding: 14px 40px;
   font-family: "Roboto", sans-serif;
