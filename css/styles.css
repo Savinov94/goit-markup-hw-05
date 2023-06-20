@@ -940,7 +940,8 @@ ul {
   fill: transparent;
 }
 
-.modal-chekbox-svg {
+.input:focus .modal-chekbox-svg {
+  fill: #4d5ae5;
 }
 
 .modal-link {
