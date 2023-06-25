@@ -68,7 +68,6 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
 }
 
 .header-container {
@@ -918,6 +917,10 @@ ul {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+
+.modal-chekbox-input:focus + .modal-chekbox-label > .modal-chekbox-span {
+  border-color: #404bbf;
 }
 
 .modal-chekbox-span {
